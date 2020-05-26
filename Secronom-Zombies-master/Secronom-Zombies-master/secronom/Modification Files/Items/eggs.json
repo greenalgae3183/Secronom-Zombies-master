@@ -1,0 +1,39 @@
+[{
+        "type": "COMESTIBLE",
+        "id": "saddler_egg",
+        "name": "萨德勒的卵",
+        "weight": 110,
+        "color": "green",
+        "comestible_type": "FOOD",
+        "symbol": "%",
+        "quench": -5,
+        "nutrition": -30,
+        "description": "一个可怕的卵,谁敢吃这个!",
+        "price": 0,
+        "material": "egg",
+        "volume": 1,
+        "fun": -50
+    }, {
+        "type": "TOOL",
+        "id": "hatchingsaddleregg",
+        "name": "有裂纹的萨德勒卵",
+        "weight": 110,
+        "color": "green",
+        "symbol": "o",
+        "description": "一个恐怖的卵,激活以打破它.",
+        "price": 0,
+        "material": "egg",
+        "volume": 1,
+        "flags": ["NO_DROP"],
+        "use_action": {
+            "type": "place_monster",
+            "monster_id": "mon_insect_saddler_baby",
+            "difficulty": 2,
+            "friendly_msg": "一个幼小的萨德勒迅猎兽!",
+            "hostile_msg": "原来是个坏蛋!",
+            "place_randomly": true,
+            "skill1": "survival",
+            "skill2": "melee"
+        }
+    }
+]

@@ -1,0 +1,9 @@
+{
+        "type": "MOD_INFO",
+        "ident": "secronom",
+        "name": "血肉",
+        "authors": ["Axema Vales"],
+        "description": "深入你的世界与内心阴暗处,对抗拥有神秘力量污染的残暴猩红怪物,或者活下....蓝..磷光?",
+        "category": "creatures",
+        "dependencies": ["dda"]
+    }
